@@ -1,0 +1,81 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.current-timer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    margin: auto;
+    line-height: 3.7;
+    height: 226px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: blue;
+  }
+  
+  .timer-controls {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 200px;
+  }
+  
+  .timer-captures {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .btn-success {
+    color: black;
+    text-align: center;
+    background: rgb(236, 37, 104);
+    font-size: 20px;
+  }
+  .btn-success:hover {
+    text-align: center;
+    color: rgba(18, 197, 27, 0.808);
+    cursor: pointer;
+  }
+  
+  .btn-alert {
+    color: black;
+  
+    text-align: center;
+    background: rgb(197, 15, 15);
+    font-size: 20px;
+  }
+  .btn-alert:hover {
+    text-align: center;
+    color: rgb(43, 226, 119);
+    cursor: pointer;
+  }
+  
+  .btn-info {
+    color: gray;
+  
+    text-align: center;
+    background: rgb(43, 226, 119);
+    font-size: 20px;
+  }
+  .btn-info:hover {
+    text-align: center;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    color: purple;
+  
+    text-align: center;
+    background: rgb(43, 226, 119);
+    font-size: 20px;
+  }
+  .btn-danger:hover {
+    text-align: center;
+    color: red;
+    cursor: pointer;
+  }
+  
